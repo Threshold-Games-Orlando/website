@@ -28,8 +28,6 @@
   "shopBody": "Browse our current trading card listings on TCGplayer. Availability, pricing, and checkout are all handled in our marketplace shop.",
   "contactTitle": "Every connection is a beginning.",
   "contactBody": "We're just getting started. Our community channels are on the way. For questions about a TCGplayer order, please contact us through your order on TCGplayer.",
-  "contactEmail": "",
-  "contactFormEnabled": false,
-  "socials": [],
+  "contactFormEnabled": true,
   "footerNote": "For the love of the game."
 }
