@@ -1,0 +1,35 @@
+{
+  "name": "Threshold Games",
+  "description": "Threshold Games is an Orlando-based gaming company built around players, community, and thoughtful service. Explore our trading card listings on TCGplayer.",
+  "eyebrow": "Orlando roots. A shared love of the game.",
+  "heroTitle": "Your next chapter",
+  "heroAccent": "starts here.",
+  "heroBody": "For the cards you chase, the worlds you explore, and the people you meet along the way. Welcome to Threshold Games.",
+  "shopLabel": "Explore our TCGplayer shop",
+  "shopUrl": "https://www.tcgplayer.com/sellers/Threshold-Games-FL/a4a88639",
+  "aboutLabel": "A little about us",
+  "aboutTitle": "Great games bring us together.",
+  "aboutBody": "We're an Orlando-based company with a simple belief: the best part of gaming is the people. Threshold Games is taking its first steps online, with trading card listings on TCGplayer and a vision shaped by the trading card and tabletop communities.",
+  "values": [
+    {
+      "title": "Players come first.",
+      "body": "From your first deck to your next favorite find, your experience is at the heart of what we're building."
+    },
+    {
+      "title": "Room for every player.",
+      "body": "Collectors, strategists, storytellers, and the just-curious. We believe a great gaming community welcomes them all."
+    },
+    {
+      "title": "Service with care.",
+      "body": "Clear communication, thoughtful help, and respect for your time. It's how we want every interaction to feel."
+    }
+  ],
+  "shopHeading": "The next find is out there.",
+  "shopBody": "Browse our current trading card listings on TCGplayer. Availability, pricing, and checkout are all handled in our marketplace shop.",
+  "contactTitle": "Every connection is a beginning.",
+  "contactBody": "We're just getting started. Our community channels are on the way. For questions about a TCGplayer order, please contact us through your order on TCGplayer.",
+  "contactEmail": "",
+  "contactFormEnabled": false,
+  "socials": [],
+  "footerNote": "For the love of the game."
+}

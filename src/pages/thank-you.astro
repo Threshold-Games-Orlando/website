@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Mark from '../components/Mark.astro';
+import { site } from '../lib/content';
+---
+
+<Layout title={'Message received — ' + site.name} noindex>
+  <main class="message-page wrap">
+    <Mark /><p class="eyebrow">Thank you for reaching out</p><h1>Message received.</h1><p>
+      Thanks for connecting with {site.name}. We'll get back to you at the email address you
+      provided.
+    </p><a href="/" class="button primary">Back to home</a>
+  </main>
+</Layout>

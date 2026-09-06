@@ -1,0 +1,109 @@
+media:
+  input: public/uploads
+  output: /uploads
+content:
+  - name: site
+    label: Website content
+    type: file
+    path: src/content/site.json
+    format: json
+    fields:
+      - name: name
+        label: Company name
+        type: string
+        required: true
+      - name: description
+        label: Search and social description
+        type: text
+        required: true
+      - name: eyebrow
+        label: Hero introduction
+        type: string
+        required: true
+      - name: heroTitle
+        label: Hero title
+        type: string
+        required: true
+      - name: heroAccent
+        label: Hero italic line
+        type: string
+        required: true
+      - name: heroBody
+        label: Hero description
+        type: text
+        required: true
+      - name: shopLabel
+        label: Main shop button
+        type: string
+        required: true
+      - name: shopUrl
+        label: TCGplayer shop URL
+        type: string
+        required: true
+      - name: aboutLabel
+        label: About section label
+        type: string
+        required: true
+      - name: aboutTitle
+        label: About heading
+        type: string
+        required: true
+      - name: aboutBody
+        label: About description
+        type: text
+        required: true
+      - name: values
+        label: Our principles
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Heading
+            type: string
+            required: true
+          - name: body
+            label: Description
+            type: text
+            required: true
+      - name: shopHeading
+        label: Shop heading
+        type: string
+        required: true
+      - name: shopBody
+        label: Shop description
+        type: text
+        required: true
+      - name: contactTitle
+        label: Contact heading
+        type: string
+        required: true
+      - name: contactBody
+        label: Contact description
+        type: text
+        required: true
+      - name: contactEmail
+        label: Contact email (optional)
+        type: string
+        description: Leave empty until your public contact address is ready.
+      - name: contactFormEnabled
+        label: Enable contact form
+        type: boolean
+        description: Enable form detection in Netlify and configure notifications before turning this on. Save to trigger a new deploy.
+      - name: socials
+        label: Social links
+        type: object
+        list: true
+        description: Add only accounts that are ready to share. Use full https URLs.
+        fields:
+          - name: label
+            label: Platform name
+            type: string
+            required: true
+          - name: url
+            label: Account URL
+            type: string
+            required: true
+      - name: footerNote
+        label: Footer tagline
+        type: string
+        required: true
